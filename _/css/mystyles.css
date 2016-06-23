@@ -1,0 +1,206 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-Family: "Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #475C98;
+}
+body {
+  background: #475C98 url(../../images/misc/background_buildings.jpg);
+  margin-top: 30px;
+}
+p {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: #586E75;
+  padding: 0 2%;
+}
+.container {
+  background: #FDF5E3;
+  -webkit-border-radius: 60px 0 0 0;
+  -moz-border-radius: 60px 0 0 0;
+  border-radius: 60px 0 0 0;
+}
+@media (max-width: 767px) {
+  .container {
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+}
+.main {
+  background: #FDF5E3;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.carousel {
+  margin-bottom: 0;
+}
+.main > article {
+  margin: 0 5%;
+}
+.sidebar > aside {
+  padding-right: 5%;
+}
+@media (max-width: 767px) {
+  .sidebar > aside {
+    padding-left: 5%;
+  }
+}
+aside h2 {
+  font-size: 1.8em;
+  color: #D33682;
+  border-bottom: 1px dotted #475C98;
+}
+nav-bar {
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+#branding img {
+  margin: 10px 0 5px 25px;
+  max-width: 450px;
+}
+@media (max-width: 767px) {
+  #branding img {
+    margin: 10px 0 5px 10px;
+    width: 90%;
+  }
+}
+.accordion-heading {
+  background: #475C98;
+}
+.accordion-heading a {
+  color: white;
+}
+.aboutthevenues article {
+  margin: 0;
+  padding: 0;
+}
+.aboutthevenues h2 {
+  padding: 0;
+  padding-bottom: 0;
+  border-bottom: 1px dotted #475C98;
+}
+.aboutthevenues h3 {
+  color: #D33682;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+}
+.nav-tabs lia a {
+  color: #475C98;
+}
+.nav-tabs li a:hover {
+  background: #D33682;
+  color: white;
+}
+.nav-tabs li.active a {
+  color: #D33682;
+  font-weight: bold;
+}
+.tab-content h3,
+.tab-content h4 {
+  margin: 0;
+  padding: 0;
+}
+.tab-content h3 {
+  color: #D33682;
+  line-height: 1em;
+}
+.tab-content p {
+  padding: 0;
+  padding-top: 10px;
+}
+.photogrid img {
+  widht: 96px;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+}
+@media (max-width: 990px) {
+  .photogrid img {
+    width: 64px;
+  }
+}
+.artistinfo article,
+.artistinfo p,
+.artistinfo h1 {
+  padding: 0 2%;
+}
+.artistinfo .photogrid img {
+  width: 72px;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+}
+.artistinfo h3 {
+  color: #D33682;
+}
+footer ul.breadcrumb {
+  background: #475C98;
+  margin: 0 auto;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+footer ul.breadcrumb li {
+  text-shadow: none;
+}
+footer ul.breadcrumb li a {
+  color: white;
+}
+.navbar .nav > li > .dropdown-menu {
+  top: 30px;
+}
+.scrollspy .nav {
+  background: #475C98;
+  margin-top: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (max-width: 1200px) {
+  .scrollspy .nav {
+    with: 15%;
+    max-width: 120px;
+  }
+}
+@media (min-width: 980px) (max-with: 1199px) {
+  .scrollspy .nav {
+    with: 13%;
+    min-width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .scrollspy .nav {
+    with: 13%;
+    max-width: 180px;
+  }
+}
+.scrollspy .nav li {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #374775;
+  border-top: 1px solid #5e74b4;
+}
+.scrollspy .nav li a {
+  color: white;
+  text-indent: -20px;
+  padding-left: 30px;
+}
+.scrollspy .nav li a:hover {
+  background: #FDAD22;
+  color: black;
+}
+.scrollspy .nav li.active {
+  background: #D33682;
+}
+.scrollspy .nav li:first-child {
+  border-top: none;
+}
+.scrollspy .nav li:last-child {
+  border-bottom: none;
+}
